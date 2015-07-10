@@ -15,6 +15,21 @@ object Execute {
     // for local testing (1 output file)
     env.setParallelism(1)
 
+    // read in and preprocess data from the TCGA project
+    
+    
+    // analyze the data using machine learning
+    // Matrix Completion
+    
+    
+    // analyze the data using network-based method
+    // Network Analysis
+    
+    
+    // build a classifier that can distinguish two cohorts 
+    // e.g. cancer vs healthy or cancer sub-group A vs cancer sub-group B
+
+
 
     env.execute("Data Analysis Pipeline")
   }
