@@ -1,3 +1,12 @@
+/*
+ * Execute.scala
+ * Author: Jonathan Baumann
+ * Program Description
+ *  This program implements a pipeline for the analysis of adenocarcinoma data from TCGA.
+ *  The data will be analysed by machine learning and network analysis. At the end a list classifier should be build 
+ *  to distinguish two cohorts.
+ */
+
 import org.apache.flink.api.scala._
 import org.apache.flink.api.scala.table._
 import org.apache.flink.api.scala.ExecutionEnvironment
