@@ -25,7 +25,8 @@ object Execute {
     env.setParallelism(1)
 
     // read in and preprocess data from the TCGA project
-    
+    val inputData = readData(env)
+      .as('id)
     
     // analyze the data using machine learning
     // Matrix Completion
@@ -47,7 +48,9 @@ object Execute {
   private var inputFile: String = null
   private var outputFolder: String = null
 
-  // method for parsing the parameters
+  case class inputData(id: String)
+
+  // parse parameters
   private def parseParameters(args: Array[String]): Boolean = {
     if (args.length == 2) {
       inputFile = args(0)
@@ -59,5 +62,15 @@ object Execute {
       System.err.println("2 parameters are necessary:\n     <input file>\n     <output path>")
       false
     }
+  }
+  
+  // read the input data of the adenocarcinoma data
+  private def readData(env: ExecutionEnvironment): DataSet[inputData] = {
+    
+    env.readCsvFile[inputData](
+      inputFile,
+      lineDelimiter = "\n",
+      fieldDelimiter = "\t",
+      ignoreFirstLine = true)
   }
 }
