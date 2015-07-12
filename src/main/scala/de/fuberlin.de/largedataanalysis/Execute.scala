@@ -39,8 +39,11 @@ object Execute {
     // build a classifier that can distinguish two cohorts 
     // e.g. cancer vs healthy or cancer sub-group A vs cancer sub-group B
 
+    
+    // write output file
+    inputData.writeAsCsv(outputFolder, "\n", "|")
 
-
+    // ececute the program
     env.execute("Data Analysis Pipeline")
   }
 
