@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.flink:flink-streaming-core:0.10-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-core/0.10-SNAPSHOT/flink-streaming-core-0.10-20150706.145348-28.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-core/0.10-SNAPSHOT/flink-streaming-core-0.10-20150706.145348-28-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-core/0.10-SNAPSHOT/flink-streaming-core-0.10-20150706.145348-28-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
