@@ -1,5 +1,5 @@
 # DataAnalysisPipeline
-Pipeline for the analysis of lung adenocarcinoma data from TCGA.
+Pipeline for the analysis of lung adenocarcinoma data from TCGA using Scala and Flink.
 
 ### Development Environment:
 * IntelliJ IDEA 14 CE
