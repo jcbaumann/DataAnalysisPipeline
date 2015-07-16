@@ -28,16 +28,23 @@ object Execute {
     val inputData = readData(env)
       .as('id)
     
+    // use Flink TableAPI for data handling
+    
     // analyze the data using machine learning
     // Matrix Completion
+    // ALS-Algorithm (Flink ALS-Algorithm)
     
     
     // analyze the data using network-based method
     // Network Analysis
+    // Connected Components (Flink Connected Components)
+    // Pagerank (Flink Pagerank)
     
     
     // build a classifier that can distinguish two cohorts 
     // e.g. cancer vs healthy or cancer sub-group A vs cancer sub-group B
+    // multiple regression (Flink ML)
+    // Gelly API (Flink Gelly API)
 
     
     // write output file
