@@ -10,6 +10,11 @@ Pipeline for the analysis of <a href="https://tcga-data.nci.nih.gov/tcga/tcgaCan
 
 ### Data:
 * The analysis using the <a href="https://tcga-data.nci.nih.gov/tcga/tcgaCancerDetails.jsp?diseaseType=LUAD&diseaseName=Lung%20adenocarcinoma" target="_blank">lung adenocarcinoma data</a> available on <a href="http://cancergenome.nih.gov" target="_blank">TCGA</a> website.
+* The data for the analysis were downloaded on 12th August 2015 9:18am.
+* The following data were downloaded:
+  * Clinical (Biotab)
+  * Exp-Gene
+  * miRNASeq
 
 ### Parameters:
 * input file
